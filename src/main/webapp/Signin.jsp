@@ -65,9 +65,9 @@
 	<div style="margin: 30px 0px 0px 300px;">
 		<h1 style="margin-bottom: 20px;">Log In</h1>
 		<form action="Signin" method="post" class="signInForm">
-			<input type="text" name="username" placeholder="Username"> 
-			<input type="password" name="password" placeholder="Password"> 
-			<input type="password" name="adminCode" placeholder="Admin Code (Optional)">
+			<input class="username" type="text" name="username" placeholder="Username"> 
+			<input class="password" type="password" name="password" placeholder="Password"> 
+			<input class="adminCode" type="password" name="adminCode" placeholder="Admin Code (Optional)">
 			<input class="logInBtn" type="submit" value="Log in" />
 		</form>
 	</div>
